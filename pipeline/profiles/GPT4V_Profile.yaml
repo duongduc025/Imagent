@@ -1,0 +1,18 @@
+Name: GPT4V_Profile
+
+PerceptionAgent: gpt4v  # Use GPT-4V for error detection
+PerceptionAgent_Seed: 1994
+Reflection: hpsv2+metric
+
+Upscale4K: True
+require_sr_size: 300
+ScaleFactor: null
+
+FaceRestore: True
+Brightening: False
+OldPhotoRestoration: False
+
+RestorePerference: Perception
+
+Fast4K: True
+Fast4kSideThres: 1024
